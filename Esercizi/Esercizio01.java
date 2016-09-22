@@ -2,7 +2,7 @@
 /**
  * Scrivere un programma che, dato un numero intero, ne calcoli il doppio e il quadrato
  */
-public class Esercizio1
+public class Esercizio01
 {
    public static void main(){
        System.out.print("Inserisci un intero: ");

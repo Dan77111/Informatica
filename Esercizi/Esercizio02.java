@@ -2,7 +2,7 @@
 /**
  * Scrivere un programma che, date due variabili, ne scambi il contenuto.
  */
-public class Esercizio2
+public class Esercizio02
 {
    public static void main(){
        System.out.print("Inserisci il valore della prima variabile: ");

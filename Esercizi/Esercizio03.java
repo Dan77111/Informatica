@@ -2,7 +2,7 @@
 /**
  * Scrivere un programme che, dati tre numeri interi, ne calcoli la somma e la media aritmetica.
  */
-public class Esercizio3
+public class Esercizio03
 {
     public static void main(){
         System.out.print("Inserisci un intero: ");
