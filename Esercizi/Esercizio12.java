@@ -27,15 +27,15 @@ public class Esercizio12
         int y = Tastiera.leggiUnIntero();
         System.out.print("Inserire il terzo numero: ");
         int z = Tastiera.leggiUnIntero();
-        int maggiore = 0;
+        int maggiore;
         if ( x > y && x > z ){
             maggiore = x;
-        } else if ( x < y && x > z ){
+        } else if ( y > x && y > z ){
             maggiore = y;
-        } else if ( x > y && x < z ){
+        } else {
             maggiore = z;
         }
-        System.out.println("Il maggiore tra i numeri inseriti è: " + maggiore);
+        System.out.println("Il maggiore tra i numeri inseriti è: " + maggiore );
     }
      public static void main3(){
         System.out.print("Inserire il primo numero: ");
@@ -44,7 +44,7 @@ public class Esercizio12
         int y = Tastiera.leggiUnIntero();
         System.out.print("Inserire il terzo numero: ");
         int z = Tastiera.leggiUnIntero();
-        int maggiore = 0;
+        int maggiore;
         if ( x > y){
             if ( x > z ){
                 maggiore = x;
