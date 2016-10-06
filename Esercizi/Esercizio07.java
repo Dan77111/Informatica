@@ -12,6 +12,9 @@ public class Esercizio07
         int h = m / 60;
         s -= m * 60;
         m -= h * 60;
-        System.out.println("I secondi inseriti equivalgono a: " + h + " ore, " + m + " minuti, " + s + " secondi.");
+        String oreTesto = ( h == 1 ) ? " ora, " : " ore, ";
+        String minutiTesto = ( m == 1 ) ? " minuto, " : " minuti, ";
+        String secondiTesto = ( s == 1 ) ? " secondo, " : " secondi, ";
+        System.out.println("I secondi inseriti equivalgono a: " + h + oreTesto + m + minutiTesto + s + secondiTesto);
     }
 }

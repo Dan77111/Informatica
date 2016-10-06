@@ -8,11 +8,10 @@ public class Esercizio08
        System.out.print("Inserire un numero: ");
        int x = Tastiera.leggiUnIntero();
        String s;
-       if ( (x % 2) == 0){
-           s = "pari";
+       if ( x % 2 == 0){
+           System.out.println("Il numero inserito è pari");
        } else {
-           s = "dispari";
+           System.out.println("Il numero inserito è dispari");
        }
-       System.out.println("Il numero inserito è " + s);
    }
 }
