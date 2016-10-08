@@ -3,6 +3,4 @@ comment0.params=array
 comment0.target=int[]\ exchange(int[])
 comment1.params=array
 comment1.target=int[]\ bubble(int[])
-comment2.params=array
-comment2.target=int[]\ selection(int[])
-numComments=3
+numComments=2

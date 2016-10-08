@@ -34,8 +34,4 @@ public class Ordinamento
         }
         return(array); 
     }
-    public static int[] selection(int[] array){
-        
-        return(array); 
-    }
 }
