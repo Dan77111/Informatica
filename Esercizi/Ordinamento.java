@@ -34,4 +34,21 @@ public class Ordinamento
         }
         return(array); 
     }
+    public static int[] bubbleInverso(int[] array){
+        for(int i = 0; i < array.length; i++) {
+            boolean ordinato = false;
+            for(int j = 0; j < array.length-1; j++) {
+                if(array[j]<array[j+1]) {
+                    int k = array[j];
+                    array[j] = array[j+1];
+                    array[j+1] = k;
+                    ordinato = true;
+                }
+            }
+            if(!ordinato){
+                break;
+            }
+        }
+        return(array); 
+    }
 }
