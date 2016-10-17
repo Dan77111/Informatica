@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=array
+comment0.target=int[]\ exchangeSort(int[])
+comment1.params=array
+comment1.target=int[]\ bubbleSort(int[])
+comment2.params=array
+comment2.target=int[]\ selectionSort(int[])
+comment3.params=array
+comment3.target=int\ piuFrequenteInArray(int[])
+comment4.params=array
+comment4.target=int\ piuFrequenteInArrayVolte(int[])
+comment5.params=array
+comment5.target=int\ massimoInArray(int[])
+comment6.params=array
+comment6.target=int\ minimoInArray(int[])
+comment7.params=array
+comment7.target=int[]\ inversoDiUnArray(int[])
+comment8.params=array
+comment8.target=void\ stampaDiUnArray(int[])
+numComments=9

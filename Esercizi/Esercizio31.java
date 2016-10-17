@@ -16,7 +16,7 @@ public class Esercizio31
             System.out.print("Inserire il numero: ");
             numeri[i] = Tastiera.leggiUnIntero();
         }
-        numeri = Ordinamento.bubble(numeri);
+        numeri = Utilità.bubbleSort(numeri);
         while ( numeri[y] < x ){
             y++;
         }

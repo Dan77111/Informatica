@@ -64,7 +64,7 @@ public class Esercizio13
            System.out.print("Inserire un numero: ");
            numeri[i] = Tastiera.leggiUnIntero();
        }
-       numeri = Ordinamento.bubble(numeri);
+       numeri = Utilità.bubbleSort(numeri);
        int differenza = numeri[numeri.length - 1] - numeri[0];
        System.out.println("Il maggiore è: " + numeri[numeri.length - 1] + ", Il minore è: " + numeri[0] +
                                         ", La differenza tra i due è: " + differenza);

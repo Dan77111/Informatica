@@ -13,7 +13,7 @@ public class Esercizio35
             System.out.print("Inserire un numero: ");
             numeri[i] = Tastiera.leggiUnIntero();                     
         }
-        numeri = Ordinamento.bubble(numeri);
+        numeri = Utilità.bubbleSort(numeri);
         int maggiore = numeri[n - 1], minore = numeri[0], somma = 0;
         for ( int i = 0; i < n; i ++ ){
             somma += numeri[i];

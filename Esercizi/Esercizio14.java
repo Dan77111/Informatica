@@ -37,7 +37,7 @@ public class Esercizio14
            System.out.print("Inserire un numero: ");
            numeri[i] = Tastiera.leggiUnIntero();
        }
-       numeri = Ordinamento.bubble(numeri);
+       numeri = Utilità.bubbleSort(numeri);
        for ( int i = 0; i < numeri.length; i ++){
            System.out.print(numeri[i]);
            if ( i != numeri.length - 1){
