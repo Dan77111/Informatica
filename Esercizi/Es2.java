@@ -82,7 +82,20 @@ public class Es2
         } else {
             System.out.print("Il tipo di permesso non è stato inserito correttamente");
         }
-        
-        
+        if ( permesso == 0 ){
+            if ( permessoRichiesto <= 30 - ferie[indice] ){
+                ferie[indice] += permessoRichiesto;
+                System.out.println("Le ferie richieste sono state accordate e sono stati trattenuti " + 5 * ferie[indice] + " euro" );
+            } else{
+                System.out.println("Le ferie richieste superano il tetto massimo");
+            }
+        } else if ( permesso == 0 ){
+            if ( permessoRichiesto <= 30 - ferie[indice] ){
+                ferie[indice] += permessoRichiesto;
+                System.out.println("La malattia richiesta è stata accordata e sono stati trattenuti " + 3 * ferie[indice] + " euro" );
+            } else{
+                System.out.println("Le malattia richiesta supera il tetto massimo");
+            }
+        }
     }
 }
