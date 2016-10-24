@@ -4,8 +4,9 @@
  */
 public class Utilità
 {
-    public static int[] exchangeSort(int[] array){
+    public static int[] exchangeSort(int[] arrayTemp){
         int temp = 0;
+        int[] array = Utilità.copiaDiUnArray(arrayTemp);
         for ( int i = 0; i < array.length - 1; i ++ ){
             for ( int j = i + 1; j < array.length; j ++ ){
                 if (array[i] > array[j]){
@@ -17,7 +18,8 @@ public class Utilità
         }
         return(array);
     }
-    public static int[] bubbleSort(int[] array){
+    public static int[] bubbleSort(int[] arrayTemp){
+        int[] array = Utilità.copiaDiUnArray(arrayTemp);
         for(int i = 0; i < array.length; i++) {
             boolean ordinato = false;
             for(int j = 0; j < array.length-1; j++) {
@@ -34,7 +36,8 @@ public class Utilità
         }
         return(array); 
     }
-    public static int[] selectionSort(int[] array){
+    public static int[] selectionSort(int[] arrayTemp){
+        int[] array = Utilità.copiaDiUnArray(arrayTemp);
         int minTemp, temp, posMin = 0;
         for ( int i = 0; i < array.length; i++ ){
             minTemp = array[i];
@@ -50,7 +53,7 @@ public class Utilità
         }
         return(array); 
     }
-    public static int piuFrequenteInArray(int[] array){
+    public static int piuFrequenteInArray_old(int[] array){
         int n = array.length, temp, numPiuFreqVolteTemp = 1, numPiuFreqVolte = 0, 
             numPiuFreqTemp = array[0], numPiuFreq = array[0];
         int[] arrayOrdinato = Utilità.selectionSort(array);
@@ -69,17 +72,50 @@ public class Utilità
         }
         return(numPiuFreq);
     }
-    public static int piuFrequenteInArrayVolte(int[] array){
-        int n = array.length, temp, numPiuFreqVolteTemp = 1, numPiuFreqVolte = 0, 
+    public static int piuFrequenteInArray(int[] array){
+        /*
+        int[] occ = new int[array.length * 2];
+        for ( int i = 0; i < array.length; i +=2 ){
+            if ( i == )
+                occ[i] = 
+        }
+        */
+       return(1);
+    }
+    public static int piuFrequenteInArrayVolte_old(int[] array){
+        int n = array.length, numPiuFreqVolteTemp = 1, numPiuFreqVolte = 1, 
             numPiuFreqTemp = array[0], numPiuFreq = array[0];
+        boolean noDoppi = true;
         int[] arrayOrdinato = Utilità.selectionSort(array);
         for ( int i = 0; i < n - 1; i++ ){
             if ( arrayOrdinato[i] == arrayOrdinato[i+1] ){
+                noDoppi = false;
                 if ( numPiuFreqTemp != numPiuFreq ){
-                        numPiuFreqVolteTemp = 1;
+                    numPiuFreqVolteTemp = 1;
                 }
                 numPiuFreqTemp = arrayOrdinato[i];
                 numPiuFreqVolteTemp ++;
+            } 
+            if ( numPiuFreqVolteTemp > numPiuFreqVolte ){
+                numPiuFreqVolte = numPiuFreqVolteTemp;
+                numPiuFreq = numPiuFreqTemp;
+            }
+        }
+        if ( noDoppi == true ){
+            return(1);
+        } else {
+            return(numPiuFreqVolte);
+        }
+    }
+    public static int piuFrequenteInArrayVolte(int[] array){
+        int[] arrayOrdinato = Utilità.exchangeSort(array);
+        int numPiuFreq = arrayOrdinato[0], numPiuFreqTemp = arrayOrdinato[0], numPiuFreqVolte = 1, numPiuFreqVolteTemp = 1;
+        for ( int i = 1; i < array.length; i++ ){
+            if ( arrayOrdinato[i] == numPiuFreqTemp ){
+                numPiuFreqVolteTemp ++;
+            } else {
+                numPiuFreqVolteTemp = 1;
+                numPiuFreqTemp = arrayOrdinato[i];
             }
             if ( numPiuFreqVolteTemp > numPiuFreqVolte ){
                 numPiuFreqVolte = numPiuFreqVolteTemp;
@@ -112,5 +148,12 @@ public class Utilità
             }
         }
         
+    }
+    public static int[] copiaDiUnArray(int[] arrayTemp){
+        int[] array = new int[arrayTemp.length];
+        for (int i = 0; i < array.length; i++){
+            array[i] = arrayTemp[i];
+        }
+        return(array);
     }
 }

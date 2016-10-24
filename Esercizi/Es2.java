@@ -56,8 +56,10 @@
 public class Es2
 {
     public static void main(){
-        String[] nominativi = { "Agostini", "Araid", "Briosi", "Casagrande", "Cimadom", "Ciola", "Dalla Rosa", "Dell'Agnolo", "Facchinelli", "Gretter", "Hamrouni", 
-                                                                          "Lazzaretti", "Lenzi", "Ligama", "Lorenzi", "Naci", "Strappazzon", "Villotti", "Vivian" };
+        String[] nominativi = { "Agostini", "Araid", "Briosi", "Casagrande", "Cimadom", "Ciola",
+                                "Dalla Rosa", "Dell'Agnolo", "Facchinelli", "Gretter", "Hamrouni", 
+                                "Lazzaretti", "Lenzi", "Ligama", "Lorenzi", "Naci", "Strappazzon", 
+                                "Villotti", "Vivian" };
         int[] ferie = { 3, 39, 12, 32, 21, 11, 9, 7, 0, 22, 14, 17, 31, 6, 8, 11, 21, 12, 13 };
         int[] malattia = { 5, 4, 32, 8, 5, 3, 2, 6, 8, 0, 8, 4, 12, 21, 40, 39, 31, 32, 21 };
         int n = nominativi.length, indice = -1, permesso = -1;
@@ -90,7 +92,7 @@ public class Es2
                 System.out.println("Le ferie richieste superano il tetto massimo");
             }
         } else if ( permesso == 1 ){
-            if ( permessoRichiesto <= 30 - malattia[indice] ){
+            if ( permessoRichiesto <= 40 - malattia[indice] ){
                 malattia[indice] += permessoRichiesto;
                 System.out.println("La malattia richiesta è stata accordata e verranno trattenuti " + 3 * malattia[indice] + " euro" );
             } else{
