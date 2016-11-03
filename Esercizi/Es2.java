@@ -63,40 +63,45 @@ public class Es2
         int[] ferie = { 3, 39, 12, 32, 21, 11, 9, 7, 0, 22, 14, 17, 31, 6, 8, 11, 21, 12, 13 };
         int[] malattia = { 5, 4, 32, 8, 5, 3, 2, 6, 8, 0, 8, 4, 12, 21, 40, 39, 31, 32, 21 };
         int n = nominativi.length, indice = -1, permesso = -1;
-        System.out.print("Inserire il nome del dipendente: ");
+        while (true){
+        System.out.print("Inserire il nome del dipendente o Esci per uscire: ");
         String dipendente = Tastiera.leggiUnaStringa();
-        for ( int i = 0; i < n; i++ ){
-            if ( dipendente.equals(nominativi[i])){
-                indice = i;
+            if ( dipendente.equals("Esci")){
+                break;
             }
-        }
-        if (indice == -1){
-            System.out.println("Il nome inserito non corrisponde a nessun dipendente");
-        }
-        System.out.print("Inserire il numero di giorni di permesso richiesti: ");
-        int permessoRichiesto = Tastiera.leggiUnIntero();
-        System.out.print("Ferie o Malattia? ");
-        String tipoDiPermesso = Tastiera.leggiUnaStringa();
-        if ( tipoDiPermesso.equals("Ferie") ){
-            permesso = 0;
-        } else if ( tipoDiPermesso.equals("Malattia") ){
-            permesso = 1;
-        } else {
-            System.out.print("Il tipo di permesso non è stato inserito correttamente");
-        }
-        if ( permesso == 0 ){
-            if ( permessoRichiesto <= 30 - ferie[indice] ){
-                ferie[indice] += permessoRichiesto;
-                System.out.println("Le ferie richieste sono state accordate e verranno trattenuti " + 5 * ferie[indice] + " euro" );
-            } else{
-                System.out.println("Le ferie richieste superano il tetto massimo");
+            for ( int i = 0; i < n; i++ ){
+                if ( dipendente.equals(nominativi[i])){
+                    indice = i;
+                } 
             }
-        } else if ( permesso == 1 ){
-            if ( permessoRichiesto <= 40 - malattia[indice] ){
-                malattia[indice] += permessoRichiesto;
-                System.out.println("La malattia richiesta è stata accordata e verranno trattenuti " + 3 * malattia[indice] + " euro" );
-            } else{
-                System.out.println("Le malattia richiesta supera il tetto massimo");
+            if (indice == -1){
+                System.out.println("Il nome inserito non corrisponde a nessun dipendente");
+            }
+            System.out.print("Inserire il numero di giorni di permesso richiesti: ");
+            int permessoRichiesto = Tastiera.leggiUnIntero();
+            System.out.print("Ferie o Malattia? ");
+            String tipoDiPermesso = Tastiera.leggiUnaStringa();
+            if ( tipoDiPermesso.equals("Ferie") ){
+                permesso = 0;
+            } else if ( tipoDiPermesso.equals("Malattia") ){
+                permesso = 1;
+            } else {
+                System.out.print("Il tipo di permesso non è stato inserito correttamente");
+            }
+            if ( permesso == 0 ){
+                if ( permessoRichiesto <= 30 - ferie[indice] ){
+                    ferie[indice] += permessoRichiesto;
+                    System.out.println("Le ferie richieste sono state accordate e verranno trattenuti " + 5 * ferie[indice] + " euro" );
+                } else{
+                    System.out.println("Le ferie richieste superano il tetto massimo");
+                }
+            } else if ( permesso == 1 ){
+                if ( permessoRichiesto <= 40 - malattia[indice] ){
+                    malattia[indice] += permessoRichiesto;
+                    System.out.println("La malattia richiesta è stata accordata e verranno trattenuti " + 3 * malattia[indice] + " euro" );
+                } else{
+                    System.out.println("Le malattia richiesta supera il tetto massimo");
+                }
             }
         }
     }

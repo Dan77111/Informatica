@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ main()
+comment1.params=campo\ campoSegnato\ righe
+comment1.target=void\ stampaStato(int[][],\ char[][],\ int)
+comment2.params=righe\ campo
+comment2.target=void\ scriviCampo(int,\ int[][])
+numComments=3
