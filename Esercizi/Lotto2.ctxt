@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=boolean\ main()
+comment1.params=numero\ estrazioni\ i
+comment1.target=boolean\ controllaNumeroDuplicato(int,\ int[][],\ int)
+comment2.params=numero\ estrazioni\ i\ j
+comment2.target=boolean\ controllaNumeroGiaEstratto(int,\ int[][],\ int,\ int)
+numComments=3
