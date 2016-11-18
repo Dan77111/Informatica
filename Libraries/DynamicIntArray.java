@@ -29,10 +29,10 @@ public class DynamicIntArray
         array[indice] = valore;
     }
     public void printArray(){
-        for ( int i = 0; i < array.length; i ++ ){
+        for ( int i = 0; i < array.length-1; i ++ ){
             System.out.print(array[i] + " ");
         }
-        System.out.println("");
+        System.out.println(array[array.length-1]);
     }
     public void sort(){
         int temp;
