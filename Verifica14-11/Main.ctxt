@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ mainEsercizio1()
+comment1.params=studente\ voti
+comment1.target=int\ mediaStudente(int,\ int[][])
+comment2.params=
+comment2.target=void\ mainEsercizio2()
+numComments=3
