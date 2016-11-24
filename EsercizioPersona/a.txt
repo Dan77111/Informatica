@@ -1,0 +1,23 @@
+Considera la seguente classe Persona
+
+public class Persona
+{
+    public int annoNascita;
+}
+
+esegui le seguenti operazioni:
+1. aggiungi un costruttore
+2. aggiungi il metodo calcoloEta()
+3. crea la classe nuovaPersona
+4. crea nella classe nuovaPersona una persona
+nata nel 2005 e restituisci a video l'età della persona
+5. aggiungi attributi per il giorno e il mese di
+nascita e aggiungi il mese di nascita al costruttore
+6. aggiungi un metodo che restituisca l'età della
+persona espressa in mesi
+7. restituisci nella classe nuovaPersona a video
+l'età della persona espressa in mesi
+8. aggiungi nella classe Persona il luogo di nascita
+9. aggiungi un costruttore che crei una persona
+conoscendo giorno, mese, anno e luogo di nascita
+10. restituisci nella classe nuovaPersona a video

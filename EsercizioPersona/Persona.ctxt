@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ getDate()
+comment1.params=annoNascita\ meseNascita\ giornoNascita\ luogoNascita
+comment1.target=Persona(int,\ int,\ int,\ java.lang.String)
+comment2.params=annoNascita\ luogoNascita
+comment2.target=Persona(int,\ java.lang.String)
+comment3.params=
+comment3.target=int\ calcoloEta()
+comment4.params=
+comment4.target=int\ calcoloEtaInMesi()
+comment5.params=
+comment5.target=int\ getGiornoNascita()
+comment6.params=
+comment6.target=int\ getMeseNascita()
+comment7.params=
+comment7.target=int\ getAnnoNascita()
+comment8.params=
+comment8.target=java.lang.String\ getLuogoNascita()
+comment9.params=
+comment9.target=int\ count()
+numComments=10
