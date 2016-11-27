@@ -17,6 +17,4 @@ comment7.params=
 comment7.target=int\ getAnnoNascita()
 comment8.params=
 comment8.target=java.lang.String\ getLuogoNascita()
-comment9.params=
-comment9.target=int\ count()
-numComments=10
+numComments=9
