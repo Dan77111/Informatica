@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=x\ y\ z
+comment0.target=Punto3D(int,\ int,\ int)
+comment1.params=z
+comment1.target=void\ setZ(int)
+comment2.params=
+comment2.target=int\ getZ()
+comment3.params=punto2
+comment3.target=double\ distanza(Punto3D)
+numComments=4

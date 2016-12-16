@@ -11,7 +11,13 @@ public class nuovoContattoStudenti{
    public static void main (){
       //Istanza della classe
       contattoTelefonicoStudenti contatto;
-      contatto = new contattoTelefonicoStudenti("Gino", "Pagnotta", "1234567890");
+      System.out.print("Inserire il nome: ");
+      String nome = Tastiera.leggiUnaStringa();
+      System.out.print("Inserire il cognome: ");
+      String cognome = Tastiera.leggiUnaStringa();
+      System.out.print("Inserire il numero: ");
+      String numero = Tastiera.leggiUnaStringa();
+      contatto = new contattoTelefonicoStudenti(nome, cognome, numero);
       //dichiarazione dei dati
       boolean exit = false;
       //richiamo dei metodi con gestione delle eccezioni e scelta del metodo da richiamare

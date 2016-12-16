@@ -1,7 +1,7 @@
 /**
  * Aggiungi qui una descrizione della classe agendaTelefonica
  *
- * @author Fabio Spiazzi
+ * @author Daniele Dalla Rosa
  * @version 24/11/2016
  */
 
@@ -32,6 +32,18 @@ public class contattoTelefonicoStudenti {
     //modifica del nome
     public void setName(String name) {
       this.name = name;
+    }
+
+    public String getName(){
+      return nome;
+    }
+
+    public String getSurname(){
+      return cognome;
+    }
+
+    public String getNumber(){
+      return numero;
     }
 
     //stampa a video del contatto

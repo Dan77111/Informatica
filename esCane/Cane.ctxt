@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=nome\ razza\ anni
+comment0.target=Cane(java.lang.String,\ java.lang.String,\ int)
+comment1.params=nome
+comment1.target=void\ setNome(java.lang.String)
+comment2.params=razza
+comment2.target=void\ setRazza(java.lang.String)
+comment3.params=anni
+comment3.target=void\ setAnni(int)
+comment4.params=nome\ razza\ anni
+comment4.target=void\ setCane(java.lang.String,\ java.lang.String,\ int)
+comment5.params=
+comment5.target=java.lang.String\ getNome()
+comment6.params=
+comment6.target=java.lang.String\ getRazza()
+comment7.params=
+comment7.target=int\ getAnni()
+comment8.params=
+comment8.target=void\ printInfo()
+comment9.params=
+comment9.target=int\ getEtaInAnniUmani()
+numComments=10
