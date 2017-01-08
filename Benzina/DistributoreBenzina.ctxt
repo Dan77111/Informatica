@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=unPrezzoPerLitroBenzina\ unPrezzoPerLitroGasolio\ nome
+comment0.target=DistributoreBenzina(double,\ double,\ java.lang.String)
+comment1.params=unaQuantitaBenzina\ unaQuantitaGasolio
+comment1.target=void\ rifornisci(double,\ double)
+comment2.params=euro\ unaAutomobile
+comment2.target=void\ vendi(double,\ Car)
+comment3.params=unPrezzoPerLitroBenzina\ unPrezzoPerLitroGasolio
+comment3.target=void\ aggiorna(double,\ double)
+comment4.params=
+comment4.target=double\ getEuroPerLitroBenzina()
+comment5.params=
+comment5.target=double\ getEuroPerLitroGasolio()
+comment6.params=unaAutomobile
+comment6.target=double\ getEuroPerRiempire(Car)
+comment7.params=
+comment7.target=double\ getDepositoGasolio()
+comment8.params=
+comment8.target=double\ getDepositoBenzina()
+comment9.params=
+comment9.target=java.lang.String\ getNome()
+numComments=10

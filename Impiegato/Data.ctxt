@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=gg\ mm\ aa
+comment0.target=Data(int,\ int,\ int)
+comment1.params=anno
+comment1.target=void\ setAnno(int)
+comment2.params=mese
+comment2.target=void\ setMese(int)
+comment3.params=giorno
+comment3.target=void\ setGiorno(int)
+comment4.params=
+comment4.target=java.time.LocalDate\ getCurrentDate()
+comment5.params=
+comment5.target=int\ getGiorno()
+comment6.params=
+comment6.target=int\ getMese()
+comment7.params=
+comment7.target=int\ getAnno()
+numComments=8

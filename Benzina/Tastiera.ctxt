@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ reset_error()
+comment0.text=\r\n\ Questo\ metodo\ legge\ un\ intero\ da\ tastiera\ e\ lo\ restituisce\r\n
+comment1.params=
+comment1.target=void\ setErrorStr()
+comment2.params=
+comment2.target=int\ getErr()
+comment3.params=
+comment3.target=java.lang.String\ getStrErr()
+comment4.params=
+comment4.target=int\ leggiUnIntero()
+comment5.params=
+comment5.target=double\ leggiUnDouble()
+comment5.text=\r\n\ Questo\ metodo\ legge\ un\ numero\ double\ da\ tastiera\ e\ lo\ restituisce\r\n
+comment6.params=
+comment6.target=java.lang.String\ leggiUnaStringa()
+comment6.text=\r\n\ Questo\ metodo\ legge\ una\ stringa\ da\ tastiera\ e\ la\ restituisce\r\n
+comment7.params=
+comment7.target=char\ leggiUnCarattere()
+comment7.text=\r\n\ Questo\ metodo\ legge\ un\ carattere\ da\ tastiera\ e\ lo\ restituisce\r\n
+numComments=8

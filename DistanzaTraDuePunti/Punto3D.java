@@ -1,4 +1,3 @@
-import java.util.*;
 /**
  * 
  */
@@ -16,7 +15,7 @@ public class Punto3D extends Punto
         return z;
     }
     public double distanza(Punto3D punto2){
-        return  Math.sqrt( ( ( super.x - punto2.x ) * ( super.x - punto2.x ) ) + 
+        return  distanza = Math.sqrt( ( ( super.x - punto2.x ) * ( super.x - punto2.x ) ) + 
                            ( ( super.y - punto2.y ) * ( super.y - punto2.y ) )  + 
                            ( ( z - punto2.z ) * ( z - punto2.z ) ) );
     }
