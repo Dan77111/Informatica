@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Punto()
+comment1.params=x\ y
+comment1.target=Punto(double,\ double)
+comment2.params=x
+comment2.target=void\ setAscissa(double)
+comment3.params=y
+comment3.target=void\ setOrdinata(double)
+comment4.params=
+comment4.target=double\ getAscissa()
+comment5.params=
+comment5.target=double\ getOrdinata()
+comment6.params=x\ y
+comment6.target=void\ setPunto(double,\ double)
+comment7.params=p2
+comment7.target=boolean\ equals(Punto)
+comment8.params=p1\ p2
+comment8.target=boolean\ equals(Punto,\ Punto)
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=10
