@@ -38,11 +38,7 @@ public class Triangolo
         this.c = c;
     }
     public boolean isDegenere(){
-        if ( Punto.segno(a,b,c) == 0 ){
-            return true;
-        } else {
-            return false;
-        }
+        return (Punto.segno(a,b,c) == 0);
     }
     public boolean puntoInterno(Punto p){
         if ( ( Punto.calcolaDistanza( a, p ) + Punto.calcolaDistanza( b, p ) < 
@@ -72,7 +68,7 @@ public class Triangolo
     }
     //FINE TEST
     public String toString(){
-        return a + ", " + b + ", " + c;
+        return String.format("%s, %s, %s", a, b, c);
     }
     public double getPerimetro(){
         return Punto.calcolaDistanza( a, b ) + Punto.calcolaDistanza( b, c ) + Punto.calcolaDistanza( c, a );
