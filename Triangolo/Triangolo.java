@@ -1,6 +1,6 @@
 
 /**
- * 
+ *
  */
 public class Triangolo
 {
@@ -41,11 +41,11 @@ public class Triangolo
         return (Punto.segno(a,b,c) == 0);
     }
     public boolean puntoInterno(Punto p){
-        if ( ( Punto.calcolaDistanza( a, p ) + Punto.calcolaDistanza( b, p ) < 
+        if ( ( Punto.calcolaDistanza( a, p ) + Punto.calcolaDistanza( b, p ) <
                Punto.calcolaDistanza( a, c ) + Punto.calcolaDistanza( b, c ) ) &&
-             ( Punto.calcolaDistanza( a, p ) + Punto.calcolaDistanza( c, p ) < 
+             ( Punto.calcolaDistanza( a, p ) + Punto.calcolaDistanza( c, p ) <
                Punto.calcolaDistanza( a, b ) + Punto.calcolaDistanza( b, c ) ) &&
-             ( Punto.calcolaDistanza( b, p ) + Punto.calcolaDistanza( c, p ) < 
+             ( Punto.calcolaDistanza( b, p ) + Punto.calcolaDistanza( c, p ) <
                Punto.calcolaDistanza( a, b ) + Punto.calcolaDistanza( a, c ) ) ) {
             return true;
         } else {
@@ -55,11 +55,11 @@ public class Triangolo
     //TEST
     public boolean puntoInterno(double px, double py){
         Punto p = new Punto(px, py);
-        if ( ( Punto.calcolaDistanza( a, p ) + Punto.calcolaDistanza( b, p ) < 
+        if ( ( Punto.calcolaDistanza( a, p ) + Punto.calcolaDistanza( b, p ) <
                Punto.calcolaDistanza( a, c ) + Punto.calcolaDistanza( b, c ) ) &&
-             ( Punto.calcolaDistanza( a, p ) + Punto.calcolaDistanza( c, p ) < 
+             ( Punto.calcolaDistanza( a, p ) + Punto.calcolaDistanza( c, p ) <
                Punto.calcolaDistanza( a, b ) + Punto.calcolaDistanza( b, c ) ) &&
-             ( Punto.calcolaDistanza( b, p ) + Punto.calcolaDistanza( c, p ) < 
+             ( Punto.calcolaDistanza( b, p ) + Punto.calcolaDistanza( c, p ) <
                Punto.calcolaDistanza( a, b ) + Punto.calcolaDistanza( a, c ) ) ) {
             return true;
         } else {
