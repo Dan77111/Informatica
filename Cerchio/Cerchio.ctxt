@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Cerchio()
+comment1.params=r
+comment1.target=Cerchio(double)
+comment2.params=c
+comment2.target=Cerchio(Cerchio)
+comment3.params=
+comment3.target=double\ getRaggio()
+comment4.params=r
+comment4.target=void\ setRaggio(double)
+comment5.params=
+comment5.target=double\ getCirconferenza()
+comment6.params=
+comment6.target=double\ getArea()
+numComments=7

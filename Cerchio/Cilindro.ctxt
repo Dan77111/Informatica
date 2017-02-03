@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Cilindro()
+comment1.params=r\ h
+comment1.target=Cilindro(double,\ double)
+comment2.params=c
+comment2.target=Cilindro(Cilindro)
+comment3.params=
+comment3.target=double\ getAltezza()
+comment4.params=h
+comment4.target=void\ setAltezza(double)
+comment5.params=
+comment5.target=double\ getArea()
+comment6.params=
+comment6.target=double\ getVolume()
+numComments=7
