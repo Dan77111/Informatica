@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Punto()
+comment1.params=x\ y
+comment1.target=Punto(double,\ double)
+comment10.params=a\ b
+comment10.target=double\ calcolaDistanza(Punto,\ Punto)
+comment11.params=b
+comment11.target=boolean\ equals(Punto)
+comment2.params=p
+comment2.target=Punto(Punto)
+comment3.params=x
+comment3.target=void\ setAscissa(double)
+comment4.params=y
+comment4.target=void\ setOrdinata(double)
+comment5.params=
+comment5.target=double\ getAscissa()
+comment6.params=
+comment6.target=double\ getOrdinata()
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment8.params=p
+comment8.target=void\ copia(Punto)
+comment9.params=a\ b\ p
+comment9.target=int\ segno(Punto,\ Punto,\ Punto)
+numComments=12

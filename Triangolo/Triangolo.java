@@ -41,32 +41,10 @@ public class Triangolo
         return (Punto.segno(a,b,c) == 0);
     }
     public boolean puntoInterno(Punto p){
-        if ( ( Punto.calcolaDistanza( a, p ) + Punto.calcolaDistanza( b, p ) <
-               Punto.calcolaDistanza( a, c ) + Punto.calcolaDistanza( b, c ) ) &&
-             ( Punto.calcolaDistanza( a, p ) + Punto.calcolaDistanza( c, p ) <
-               Punto.calcolaDistanza( a, b ) + Punto.calcolaDistanza( b, c ) ) &&
-             ( Punto.calcolaDistanza( b, p ) + Punto.calcolaDistanza( c, p ) <
-               Punto.calcolaDistanza( a, b ) + Punto.calcolaDistanza( a, c ) ) ) {
-            return true;
-        } else {
-            return false;
-        }
+        return ( Punto.segno(a,b,c) == Punto.segno(a,b,p) ) &&
+               ( Punto.segno(a,c,b) == Punto.segno(a,c,p) ) &&
+               ( Punto.segno(b,c,a) == Punto.segno(b,c,p) );
     }
-    //TEST
-    public boolean puntoInterno(double px, double py){
-        Punto p = new Punto(px, py);
-        if ( ( Punto.calcolaDistanza( a, p ) + Punto.calcolaDistanza( b, p ) <
-               Punto.calcolaDistanza( a, c ) + Punto.calcolaDistanza( b, c ) ) &&
-             ( Punto.calcolaDistanza( a, p ) + Punto.calcolaDistanza( c, p ) <
-               Punto.calcolaDistanza( a, b ) + Punto.calcolaDistanza( b, c ) ) &&
-             ( Punto.calcolaDistanza( b, p ) + Punto.calcolaDistanza( c, p ) <
-               Punto.calcolaDistanza( a, b ) + Punto.calcolaDistanza( a, c ) ) ) {
-            return true;
-        } else {
-            return false;
-        }
-    }
-    //FINE TEST
     public String toString(){
         return String.format("%s, %s, %s", a, b, c);
     }
@@ -74,6 +52,18 @@ public class Triangolo
         return Punto.calcolaDistanza( a, b ) + Punto.calcolaDistanza( b, c ) + Punto.calcolaDistanza( c, a );
     }
     public double getArea(){
-        return 0.0;
+        double sp = getPerimetro()/2;
+        double l1 = Punto.calcolaDistanza(getA(),getB());
+        double l2 = Punto.calcolaDistanza(getA(),getC());
+        double l3 = Punto.calcolaDistanza(getC(),getB());
+        return Math.sqrt(sp*(sp*l1)*(sp*l2)*(sp*l3));
+    }
+    public boolean equals(Triangolo t){
+        return getA().equals(t.getA()) && getB().equals(t.getB()) && getC().equals(t.getC()) ||
+               getA().equals(t.getA()) && getB().equals(t.getC()) && getC().equals(t.getB()) ||
+               getA().equals(t.getB()) && getB().equals(t.getA()) && getC().equals(t.getC()) ||
+               getA().equals(t.getB()) && getB().equals(t.getC()) && getC().equals(t.getA()) ||
+               getA().equals(t.getC()) && getB().equals(t.getA()) && getC().equals(t.getB()) ||
+               getA().equals(t.getC()) && getB().equals(t.getB()) && getC().equals(t.getA());
     }
 }

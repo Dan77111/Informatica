@@ -1,2 +1,6 @@
 #BlueJ class context
-numComments=0
+comment0.params=nome\ stipendio
+comment0.target=Manager(java.lang.String,\ int)
+comment1.params=aumento
+comment1.target=void\ aumentaStipendio(int)
+numComments=2

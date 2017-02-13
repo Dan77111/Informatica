@@ -1,6 +1,6 @@
 #BlueJ class context
-comment0.params=nome\ stipendio
-comment0.target=Impiegato(java.lang.String,\ int)
+comment0.params=nome\ stipendio\ data
+comment0.target=Impiegato(java.lang.String,\ int,\ Data)
 comment1.params=
 comment1.target=java.lang.String\ getNome()
 comment2.params=
@@ -9,4 +9,8 @@ comment3.params=nome
 comment3.target=void\ setNome(java.lang.String)
 comment4.params=stipendio
 comment4.target=void\ setStipendio(int)
-numComments=5
+comment5.params=data
+comment5.target=void\ setData(Data)
+comment6.params=
+comment6.target=void\ aumentaStipendio()
+numComments=7
