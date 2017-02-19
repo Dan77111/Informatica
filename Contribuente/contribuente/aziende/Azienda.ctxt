@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=entrate\ uscite\ partitaIva
+comment0.target=Azienda(double,\ double,\ java.lang.String)
+comment1.params=partitaIva
+comment1.target=void\ setPartitaIva(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ id()
+comment3.params=
+comment3.target=double\ fattoreDiSconto()
+comment4.params=
+comment4.target=double\ aliquota()
+numComments=5

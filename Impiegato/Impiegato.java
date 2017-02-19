@@ -22,4 +22,7 @@ public class Impiegato
     public void setStipendio(int stipendio){
         this.stipendio = stipendio;
     }
+    public void aumentaStipendio(int aumento){
+        setStipendio(getStipendio()+aumento);
+    }
 }

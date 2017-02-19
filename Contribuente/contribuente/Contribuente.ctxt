@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=entrate\ uscite
+comment0.target=Contribuente(double,\ double)
+comment1.params=
+comment1.target=java.lang.String\ id()
+comment2.params=
+comment2.target=double\ imponibile()
+comment3.params=
+comment3.target=double\ fattoreDiSconto()
+comment4.params=
+comment4.target=double\ aliquota()
+comment5.params=
+comment5.target=double\ daPagare()
+numComments=6

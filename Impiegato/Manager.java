@@ -4,10 +4,16 @@
  */
 public class Manager extends Impiegato
 {
-    public Manager(String nome, int stipendio){
+    int bonus;
+    
+    public Manager(String nome, int stipendio, int bonus){
         super(nome, stipendio);
+        this.bonus = bonus;
     }
-    public void aumentaStipendio(int aumento){
-        setStipendio(getStipendio()+aumento);
+    
+    //public get e set di bonus
+    public int getStipendio(){
+        return (super.getStipendio() + getBonus());
     }
+    
 }
