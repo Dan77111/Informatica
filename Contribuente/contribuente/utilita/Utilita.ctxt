@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=contribuenti\ pagamentiPervenuti
+comment0.target=contribuente.Contribuente[]\ debitori(contribuente.Contribuente[],\ double[])
+comment1.params=debitori
+comment1.target=contribuente.Contribuente[]\ aziendeDebitrici(contribuente.Contribuente[])
+comment1.text=\r\n\ \ \ \ public\ static\ Contribuente[]\ aziendeDebitrici(Contribuente[]\ debitori){\r\n\ \ \ \ \ \ \ \ int[]\ temp\ \=\ new\ int[debitori.length];\r\n\ \ \ \ \ \ \ \ int\ j\ \=\ 0;\r\n\ \ \ \ \ \ \ \ for\ (\ int\ i\ \=\ 0;\ i\ <\ debitori.length;\ i\ ++\ ){\r\n\ \ \ \ \ \ \ \ \ \ \ \ if\ (\ debitori[i].id().length()\ \=\=\ 11\ ){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ temp[j++]\ \=\ i;\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ Contribuente[]\ aziendeDebitrici\ \=\ new\ Contribuente[j+1];\r\n\ \ \ \ \ \ \ \ for\ (\ int\ i\ \=\ 0;\ i\ <\=\ j;\ i\ ++\ ){\r\n\ \ \ \ \ \ \ \ \ \ \ \ aziendeDebitrici[i]\ \=\ debitori[temp[i]];\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ return\ aziendeDebitrici;\r\n\ \ \ \ }\r\n
+comment2.params=lista\ debitori
+comment2.target=contribuente.Contribuente[]\ isAzienda(contribuente.Contribuente[],\ contribuente.Contribuente[])
+comment3.params=lista
+comment3.target=contribuente.Contribuente[]\ rimuoviPElementiDaLista(contribuente.Contribuente[])
+comment4.params=nome\ cognome\ lista
+comment4.target=contribuente.persone.PersonaFisica\ cerca(java.lang.String,\ java.lang.String,\ contribuente.persone.PersonaFisica[])
+numComments=5

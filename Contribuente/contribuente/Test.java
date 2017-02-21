@@ -5,9 +5,9 @@ public class Test
 {
     public static void main(){
         PersonaFisica p1 = new PersonaFisica(10000,1000,"ABCDEFGHIJKMNOPQ","HSFhdbhdf","hbhfbvdf");
-        PersonaFisica p2 = new PersonaFisica(100000,1000,"JKLMNOPQABCEFGHI","HSFhdbhdf","hbhfbvdf");
+        PersonaFisica p2 = new PersonaFisica(100000,1000,"UANCIU22U22U333U","HSFhdbhdf","hbhfbvdf");
         PersonaFisica p3 = new PersonaFisica(1000,100,"FGHIJPQABCKLNODE","HSFhdbhdf","hbhfbvdf");
-        PersonaFisica p4 = new PersonaFisica(100100,1000,"AIFGHNOJKLCDEMBQ","HSFhdbhdf","bhfbvdf");
+        PersonaFisica p4 = new PersonaFisica(100100,1000,"AIFGHN11K22D999Q","HSFhdbhdf","bhfbvdf");
         Azienda a1 = new Azienda(10000,1000,"12345678901");
         Azienda a2 = new Azienda(100000,1000,"67890112345");
         Azienda a3 = new Azienda(1000000,1000,"59123678401");

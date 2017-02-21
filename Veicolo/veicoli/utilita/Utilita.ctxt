@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=veicoli
+comment0.target=veicoli.Veicolo[]\ veicoliLusso(veicoli.Veicolo[])
+comment1.params=lista\ veicoli
+comment1.target=veicoli.Veicolo[]\ diLusso(veicoli.Veicolo[],\ veicoli.Veicolo[])
+comment2.params=lista
+comment2.target=veicoli.Veicolo[]\ rimuoviNElementiDaLista(veicoli.Veicolo[])
+numComments=3

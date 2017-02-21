@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=numeroPosti\ cilindrata
+comment0.target=Veicolo(int,\ double)
+comment1.params=
+comment1.target=java.lang.String\ id()
+comment2.params=
+comment2.target=double\ prezzoCc()
+comment3.params=
+comment3.target=double\ tassaCircolazione()
+comment4.params=
+comment4.target=int\ numeroPosti()
+numComments=5

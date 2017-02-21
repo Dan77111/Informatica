@@ -20,7 +20,7 @@ public class Azienda extends Contribuente
             for ( int i = 0; i < 11; i ++ ){
                 isValid = false;
                 for ( int j = 0; j < validChars.length; j ++ ){
-                    if ( partitaIva.charAt(i) == validChars[j] ){ 
+                    if ( partitaIva.charAt(i) == validChars[j] ){
                         isValid = true;
                         break;
                     }
