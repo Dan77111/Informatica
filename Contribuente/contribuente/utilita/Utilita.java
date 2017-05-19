@@ -47,12 +47,11 @@ public class Utilita
                 lista[i] = debitori[j];
                 i ++;
                 j ++;
-                return isAzienda(lista, debitori);
             } else {
                 j ++;
                 p ++;
-                return isAzienda(lista, debitori);
             }
+            return isAzienda(lista, debitori);
         } else {
             return rimuoviPElementiDaLista(lista);
         }

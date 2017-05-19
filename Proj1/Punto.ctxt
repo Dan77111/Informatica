@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=ascissa\ ordinata
+comment0.target=Punto(int,\ int)
+comment1.params=
+comment1.target=int\ getAscissa()
+comment2.params=
+comment2.target=int\ getOrdinata()
+comment3.params=ascissa
+comment3.target=void\ setAscissa(int)
+comment4.params=ordinata
+comment4.target=void\ setOrdinata(int)
+comment5.params=p1\ p2
+comment5.target=int\ getDistanza(Punto,\ Punto)
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7

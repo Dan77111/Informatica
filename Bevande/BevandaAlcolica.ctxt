@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=gradazioneAlcolica\ tipo
+comment0.target=BevandaAlcolica(double,\ java.lang.String)
+comment1.params=
+comment1.target=double\ getGradazioneAlcolica()
+comment2.params=
+comment2.target=java.lang.String\ getTipo()
+comment3.params=gradazioneAlcolica
+comment3.target=void\ setGradazioneAlcolica(double)
+comment4.params=tipo
+comment4.target=void\ setTipo(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

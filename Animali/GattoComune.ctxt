@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=nomeProprio\ colorePelo
+comment0.target=GattoComune(java.lang.String,\ java.lang.String)
+comment1.params=
+comment1.target=java.lang.String\ getColorePelo()
+comment2.params=colorePelo
+comment2.target=void\ setColorePelo(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

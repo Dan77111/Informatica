@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=double\ getAltezza()
+comment1.params=altezza
+comment1.target=void\ setAltezza(double)
+comment2.params=
+comment2.target=double\ getArea()
+comment3.params=
+comment3.target=double\ getVolume()
+numComments=4

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Parallelepipedo()
+comment1.params=lato\ altezza
+comment1.target=Parallelepipedo(double,\ double)
+comment2.params=
+comment2.target=double\ getLato()
+comment3.params=lato
+comment3.target=void\ setLato(double)
+comment4.params=
+comment4.target=double\ getArea()
+comment5.params=
+comment5.target=Parallelepipedo\ creaCasuale()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7

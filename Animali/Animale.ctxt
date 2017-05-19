@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=nomeComune\ specie\ habitat\ statoDiConservazione\ nomeProprio
+comment0.target=Animale(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.params=
+comment1.target=java.lang.String\ getNomeComune()
+comment10.params=nomeProprio
+comment10.target=void\ setNomeProprio(java.lang.String)
+comment11.params=
+comment11.target=java.lang.String\ toString()
+comment2.params=
+comment2.target=java.lang.String\ getSpecie()
+comment3.params=
+comment3.target=java.lang.String\ getHabitat()
+comment4.params=
+comment4.target=java.lang.String\ getStatoDiConservazione()
+comment5.params=
+comment5.target=java.lang.String\ getNomeProprio()
+comment6.params=nomeComune
+comment6.target=void\ setNomeComune(java.lang.String)
+comment7.params=specie
+comment7.target=void\ setSpecie(java.lang.String)
+comment8.params=habitat
+comment8.target=void\ setHabitat(java.lang.String)
+comment9.params=statoDiConservazione
+comment9.target=void\ setStatoDiConservazione(java.lang.String)
+numComments=12

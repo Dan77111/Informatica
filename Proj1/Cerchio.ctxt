@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=centro\ raggio
+comment0.target=Cerchio(Punto,\ int)
+comment1.params=
+comment1.target=int\ getRaggio()
+comment2.params=
+comment2.target=Punto\ getCentro()
+comment3.params=raggio
+comment3.target=void\ setRaggio(int)
+comment4.params=centro
+comment4.target=void\ setCentro(Punto)
+comment5.params=
+comment5.target=Cerchio\ creaCasuale()
+comment6.params=
+comment6.target=int\ getPerimetro()
+comment7.params=
+comment7.target=int\ getArea()
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9
